@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <br>
+    <form action="#" method="post">
+
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br><br>
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        <br><br>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" max="100" min="0" maxlength="">
+        <br><br>
+        <input type="checkbox" id="termos" name="termos">
+        <label for="termos">Aceito os termos e condições</label>
+        <br><br>
+
+        <hr>
+        <label>Gênero:</label>
+
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="outro" name="genero" value="outro">
+        <label for="outro">Outro</label>
+
+        <hr>
+
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+            <option value="1">São Paulo</option>
+            <option value="2">Rio de Janeiro</option>
+            <option value="3">Minas Gerais</option>
+            <option value="4">Espírito Santo</option>
+        </select>
+
+
+        <label for="cidade">Cidade:</label>
+        <select name="cidade" id="cidade">
+            <option value="1">Americana</option>
+            <option value="2">Cabofrio</option>
+            <option value="3">Sumidouro</option>
+            <option value="4">Paraty</option>
+            <option value="5">Rio das Ostras</option>
+        </select>
+
+        <hr>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="40"></textarea>
+
+    </form>
+    
+
+
+</body>
+</html>

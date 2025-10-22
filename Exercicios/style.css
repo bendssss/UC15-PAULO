@@ -1,0 +1,14 @@
+header {
+    background-color: #83630aaf;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+
+
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}

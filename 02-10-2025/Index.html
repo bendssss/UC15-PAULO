@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pré-Matrícula - Escola Virtual</title>
+    <link rel="stylesheet" href="EstiloForm.css">
+</head>
+<body>
+     <div class="container">
+        <h1>Formulário de Pré-Matrícula</h1>
+        <form action="#" method="post">
+            <div>
+                <label for="nome_aluno">Nome do Aluno:</label>
+                <input type="text" id="nome_aluno" name="nome_aluno" maxlength="40" required>
+            </div>
+
+            <div>
+                <label for="data_nascimento">Data de Nascimento:</label>
+                <input type="date" id="data_nascimento" name="data_nascimento" required>
+            </div>
+
+            <div>
+                <label for="nome_mae">Nome da Mãe:</label>
+                <input type="text" id="nome_mae" name="nome_mae" maxlength="40" required>
+            </div>
+
+            <div>
+                <label for="nome_pai">Nome do Pai:</label>
+                <input type="text" id="nome_pai" name="nome_pai" maxlength="40">
+            </div>
+
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(DDD) 99999-9999 Ramal: 123">
+            </div>
+
+            <div>
+                <label for="email">E-mail de contato:</label>
+                <input type="email" id="email" name="email" maxlength="40" required>
+            </div>
+
+            <div>
+                <label for="serie">Série pretendida:</label>
+                <select id="serie" name="serie" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <optgroup label="Educação Infantil">
+                        <option value="pre-escola">Pré-escola</option>
+                    </optgroup>
+                    <optgroup label="Ensino Fundamental I">
+                        <option value="1_ano_ef">1º Ano</option>
+                        <option value="2_ano_ef">2º Ano</option>
+                        <option value="3_ano_ef">3º Ano</option>
+                        <option value="4_ano_ef">4º Ano</option>
+                        <option value="5_ano_ef">5º Ano</option>
+                    </optgroup>
+                    <optgroup label="Ensino Fundamental II">
+                        <option value="6_ano_ef">6º Ano</option>
+                        <option value="7_ano_ef">7º Ano</option>
+                        <option value="8_ano_ef">8º Ano</option>
+                        <option value="9_ano_ef">9º Ano</option>
+                    </optgroup>
+                    <optgroup label="Ensino Médio (Antigo 2º Grau)">
+                        <option value="1_serie_em">1ª Série</option>
+                        <option value="2_serie_em">2ª Série</option>
+                        <option value="3_serie_em">3ª Série</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>Turno Preferencial</legend>
+                <div class="radio-group">
+                    <input type="radio" id="turno_manha" name="turno" value="manha" checked>
+                    <label for="turno_manha">Manhã</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="turno_tarde" name="turno" value="tarde">
+                    <label for="turno_tarde">Tarde</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Atividades Extra-curriculares de Interesse</legend>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="informatica" name="atividades[]" value="informatica">
+                    <label for="informatica">Informática</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="musica" name="atividades[]" value="musica">
+                    <label for="musica">Música</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="ballet" name="atividades[]" value="ballet">
+                    <label for="ballet">Ballet</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="pintura" name="atividades[]" value="pintura">
+                    <label for="pintura">Pintura</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="judo" name="atividades[]" value="judo">
+                    <label for="judo">Judô</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="futebol" name="atividades[]" value="futebol">
+                    <label for="futebol">Futebol</label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Enviar Pré-Matrícula</button>
+        </form>
+    </div>
+
+</body>
+</html>

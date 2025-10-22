@@ -1,0 +1,81 @@
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #333;
+    font-family: 'white', sans-serif;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    
+   }
+nav {
+    background-color: #333;
+    overflow: hidden;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    float: left;
+}
+.menu li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: #111;
+}
+.perfil {
+    background-color: #4b3b3b8e;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(39, 34, 34, 0.466);
+}
+.foto {
+    width: 100px;
+    height: auto;   
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clip-path: circle(50%);
+}
+.nome {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.interesses {
+    background-color: #4b3b3b8e;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(39, 34, 34, 0.466);
+}
+.interesses h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.mask1 {
+    -webkit-text-stroke-color: transparent;
+    -webkit-background-clip: text; 
+    background-clip: text;
+    background-image: linear-gradient(45deg, #af1973, #272550);
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
